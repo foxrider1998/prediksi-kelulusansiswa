@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 #load save model
-model = pickle.load(open('siswa_kelulusan.sav', 'rb'))
+model = pickle.load(open('kelulusan_siswa.sav', 'rb'))
 
 #judul web
 st.title('Prediksi Kelulusan Siswa')
